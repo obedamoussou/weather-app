@@ -39,7 +39,7 @@ const fetchWeather = async () => {
       <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl shadow-2xl max-w-md w-full">
         <h1 className="text-3xl font-bold text-center mb-6">🌍 Météo Instantanée</h1>
 
-        <div className="flex flex-col md:flex-row gap-2 mb-4">
+        <div className="flex flex-col md:flex-row justify-center gap-2 mb-4">
           <input
             type="text"
             placeholder="Entrez une ville"
